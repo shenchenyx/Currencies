@@ -43,7 +43,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_weight="20"
-        android:background="@color/grey_drak">
+        android:background="@color/grey_dark">
         <EditText
             android:id="@+id/edt_amount"
             android:layout_width="fill_parent"
@@ -92,15 +92,10 @@
             android:layout_weight="55"
             android:gravity="top"/>
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
             android:layout_weight="15"
-            android:gravity="bottom"
             android:text="Calculated result in home currency:"
             android:textColor="@color/grey_med"
-            android:textSize="12sp"/>
+            style="@style/label" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
@@ -108,7 +103,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_weight="20"
-        android:background="@color/grey_drak">
+        android:background="@color/grey_dark">
         <TextView
             android:id="@+id/txt_converted"
             android:layout_width="fill_parent"
