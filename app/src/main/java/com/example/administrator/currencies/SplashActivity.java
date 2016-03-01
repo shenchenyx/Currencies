@@ -47,7 +47,6 @@ public class SplashActivity extends Activity {
                     mCurrencies.add(key + " | " + jsonObject.getString(key));
                 }
                 finish();
-
             } catch (JSONException e) {
                 Toast.makeText(
                         SplashActivity.this,
